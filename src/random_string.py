@@ -4,6 +4,8 @@ import random
 # 実行する際のモードを入力
 # alphabet or digits or both
 mode = "both"
+# 大文字小文字の選択
+# alphabet or digits or both
 ul = "both"
 
 for i in range(100):
@@ -26,4 +28,6 @@ for i in range(100):
     else:
         print("error")
 
-
+def function_name(x, y):
+    # ここに処理を書く
+    return x*y
